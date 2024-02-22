@@ -6,7 +6,7 @@ public class TestCubeController : MonoBehaviour
 {
     public EventHandler<bool> OnButtonAPressed;
     public EventHandler<bool> OnButtonEPressed;
-    
+    public Animator MyCubeAnimator;
     
     //N'oublier pas que pour interagir avec un element il vous faut une référence. 
     //Il serait pertinent de r'ajouté un champ public pour povoir référencer dans l'inspecteur apres
@@ -27,7 +27,7 @@ public class TestCubeController : MonoBehaviour
         // isPressed est vrai quand le boutton est pressé et faux lorsqu'il est relâché
         bool isPressed = value.isPressed;
         
-        
+        MyCubeAnimator.SetBool("Transi_A",isPressed);
         
         
         
@@ -44,6 +44,7 @@ public class TestCubeController : MonoBehaviour
         // isPressed est vrai quand le bouton est pressé et faux lorsqu'il est relâché
         bool isPressed = value.isPressed;
         
+        MyCubeAnimator.SetBool("Transi_E",isPressed);
         
         
         
