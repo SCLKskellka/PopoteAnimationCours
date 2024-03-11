@@ -22,8 +22,8 @@ public class ThirdPersonControllerBase : MonoBehaviour
     public LayerMask GroundMask;
 
     public float JumpHeight = 1f;
-
-    public Animator MyAnimator;
+    
+    
     
     // Est vrai si le player touche le sol
     protected bool _isGRounded;
@@ -36,24 +36,18 @@ public class ThirdPersonControllerBase : MonoBehaviour
     
     protected virtual void Update() {
         ManageMovement();
-        MyAnimator.SetFloat("moveX",_moveVector.x);
-        MyAnimator.SetFloat("moveZ",_moveVector.z);
     }
     
     protected virtual void DoJump(bool isPress) {
-        if (_isGRounded)
-        {
-            _velocity.y = Mathf.Sqrt(JumpHeight * -2f * Gravity);
-            MyAnimator.SetBool("Jump", isPress);
-        }
+        Debug.Log("DoJump");
+        if ( _isGRounded) _velocity.y = Mathf.Sqrt(JumpHeight * -2f * Gravity);
     }
 
     protected virtual void DoActionOnNorth(bool isPress) {
-        MyAnimator.SetBool("Salut", isPress);
+       
     }
 
     protected virtual void DoActionOnWest(bool isPress) {
-        MyAnimator.SetBool("Angry", isPress);
     }
     
     protected virtual void ManageMovement() {
@@ -66,7 +60,6 @@ public class ThirdPersonControllerBase : MonoBehaviour
         
         Controller.Move(MoveSpeed*Time.deltaTime*_moveVector);
         Controller.Move(_velocity*Time.deltaTime);
-        
     }
     
     
@@ -80,7 +73,7 @@ public class ThirdPersonControllerBase : MonoBehaviour
     }
 
     public void OnNorth(InputValue value) {
-       DoActionOnNorth(value.isPressed);
+        DoActionOnNorth(value.isPressed);
         OnNorthButton?.Invoke(this, value.isPressed);
     }
 
