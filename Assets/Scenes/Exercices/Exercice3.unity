@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.3069224, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -490,7 +490,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 397596487}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.54760396, y: -0.000000039730764, z: 0.000000026001846, w: 0.8367377}
+  m_LocalRotation: {x: 0.547604, y: 0.000000013393748, z: -0.000000008765556, w: 0.8367377}
   m_LocalPosition: {x: 0, y: 14.780001, z: -6.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -702,7 +702,7 @@ MonoBehaviour:
   _moveSpeed: 10
   _mouseLayerMask:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   _psGound: {fileID: 741519782913770622, guid: 5f5a6882a3a15884e9bd90d7ec919cf8, type: 3}
   _psBlood: {fileID: 919050122950429479, guid: d2e9025f80cbb05449dba187c3fa9b6a, type: 3}
   _firePoint: {fileID: 866773229}
@@ -1939,7 +1939,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2090126756}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.54760396, y: -0.000000039730764, z: 0.000000026001846, w: 0.8367377}
+  m_LocalRotation: {x: 0.547604, y: 0.000000013393748, z: -0.000000008765556, w: 0.8367377}
   m_LocalPosition: {x: 0, y: 14.780001, z: -6.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

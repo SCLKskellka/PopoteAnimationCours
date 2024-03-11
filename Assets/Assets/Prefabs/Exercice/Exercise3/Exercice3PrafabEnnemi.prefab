@@ -194,6 +194,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yaku J Ignite
       objectReference: {fileID: 0}
+    - target: {fileID: 2812944727101590507, guid: ebdff9327bd9bcd439360d613e3cc28d,
+        type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: ff56ae599c78e9846bdda1b105b44de1, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
