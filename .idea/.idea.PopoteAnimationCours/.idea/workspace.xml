@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45823aea-07f6-4586-9d1b-c48e18ddaed6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Animations/Zombie/ZombieAttack.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Animations/Zombie/ZombieAttack.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Animations/Zombie/ZombieDeath.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Animations/Zombie/ZombieDeath.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Animations/Zombie/ZombieIdle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Animations/Zombie/ZombieIdle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Animations/Zombie/ZombieWalk.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Animations/Zombie/ZombieWalk.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Animator/Exercises/Exercise2/Zombie.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Animator/Exercises/Exercise2/Zombie.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Prefabs/Exercice/Exercise3/Exercice3PrafabEnnemi.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Prefabs/Exercice/Exercise3/Exercice3PrafabEnnemi.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/RawImport/Zombie/Yaku J Ignite.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/RawImport/Zombie/Yaku J Ignite.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Script/Folder.DotSettings.user.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Exercices/Exercice3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Exercices/Exercice3.unity" afterDir="false" />
-    </list>
+    <list default="true" id="45823aea-07f6-4586-9d1b-c48e18ddaed6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,10 +13,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2dY3aK2zZLf9ELsyxwS8XHwxnpN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,7 +27,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "myBranch",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   },
@@ -100,6 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710171250027</updated>
       <workItem from="1710171253643" duration="20000" />
+      <workItem from="1710317807495" duration="528000" />
     </task>
     <servers />
   </component>

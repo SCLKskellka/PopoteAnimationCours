@@ -702,7 +702,7 @@ MonoBehaviour:
   _moveSpeed: 10
   _mouseLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   _psGound: {fileID: 741519782913770622, guid: 5f5a6882a3a15884e9bd90d7ec919cf8, type: 3}
   _psBlood: {fileID: 919050122950429479, guid: d2e9025f80cbb05449dba187c3fa9b6a, type: 3}
   _firePoint: {fileID: 866773229}
